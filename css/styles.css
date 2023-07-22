@@ -996,11 +996,8 @@ footer {
 
 
 .checkbox-label:focus-within > .checkbox {
-    outline-color: var(--accent-color);
-    background-color: var(--accent-color);
-    background-size: 11px 8px;
-    background-size: contain;
-    border-color: transparent;
+    border: 2px solid var(--accent-color);
+    outline: 0;
 }
 
 .checkbox-label {
